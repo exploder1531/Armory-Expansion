@@ -40,6 +40,10 @@ repositories {
         name 'tehnut'
         url 'http://tehnut.info/maven/'
     }
+    maven {
+        name 'jared maven'
+        url 'http://blamejared.com/maven'
+    }
 }
 
 apply plugin: 'net.minecraftforge.gradle.forge'
@@ -121,6 +125,8 @@ dependencies {
 
     deobfCompile 'llibrary:llibrary:1.7.9:1.12.2'
     deobfCompile 'ice-and-fire-dragons:iceandfire:1.7.0:1.12.2'
+
+    deobfCompile 'blusunrize:ImmersiveEngineering:0.12-86-+'
 
 //    deobfCompile 'the-twilight-forest:twilightforest:1.12.2:3.8.689:universal'
 }
